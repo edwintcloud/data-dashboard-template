@@ -1,4 +1,4 @@
-module github.com/uptahr/template
+module github.com/edwintcloud/data-dashboard-template
 
 go 1.21.1
 
