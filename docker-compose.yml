@@ -1,0 +1,10 @@
+services:
+  server:
+    build:
+      target: dev
+    environment:
+      ENV: "dev"
+    volumes:
+      - ./server:/app
+    ports:
+      - "8080:8080"

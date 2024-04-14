@@ -1,0 +1,6 @@
+services:
+  server:
+    build:
+      target: prod
+    ports:
+      - "80:8080"
